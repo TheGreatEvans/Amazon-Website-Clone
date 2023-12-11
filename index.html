@@ -1,0 +1,173 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Website Clone | CodingNepa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://fonts.goggleapis.com/css2?
+family=material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-logo">
+                <a href="#"><img src="images/amazon_logo.png" alt="logo"></a>
+            </div>
+            <div class="address">
+                <a href="#" class="deliver">Deliver</a>
+                <div class="map icon">
+                    <span class="material-symbols-outlined">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="10" viewBox="0 0 320 512">
+                            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                            <path opacity="1" fill="#fff"
+                                d="M16 144a144 144 0 1 1 288 0A144 144 0 1 1 16 144zM160 80c8.8 0 16-7.2 16-16s-7.2-16-16-16c-53 0-96 43-96 96c0 8.8 7.2 16 16 16s16-7.2 16-16c0-35.3 28.7-64 64-64zM128 480V317.1c10.4 1.9 21.1 2.9 32 2.9s21.6-1 32-2.9V480c0 17.7-14.3 32-32 32s-32-14.3-32-32z" />
+                        </svg>
+                    </span>
+                    <a href="#" class="location">Nepal</a>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="select-search">
+                    <option>ALL</option>
+                    <option>ALL Categories</option>
+                    <option>Amazon Devices</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" class="search input">
+                <div class="seach-icon">
+                    <button type="button" class="material-symbols-outlined btn-search">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512">
+                            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                            <path opacity="1" fill="#1E3050"
+                                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="sign-in">
+                <a href="#">
+                    <p>Hello, sign in</p>
+                    <span>Account &amp; Lists</span>
+                </a>
+            </div>
+
+            <div class="returns">
+                <a href="#">
+                    <p>Returns</p>
+                    <span>&amp; Orders</span>
+                </a>
+            </div>
+
+            <div class="cart">
+                <a href="#">
+                    <span class="material-symbols-outlined cart-icon"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="40" width="40" viewBox="0 0 576 512">
+                            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                            <path opacity="1" fill="#fff"
+                                d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+                        </svg></span>
+                </a>
+                <p>Cart</p>
+            </div>
+        </nav>
+
+        <div class="banner">
+            <div class="banner-content">
+                <div class="panel">
+                    <span class="material-symbol-outlined">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">
+                            <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                            <path opacity="1" fill="#fff"
+                                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                        </svg>
+                    </span>
+                    <a href="#">All</a>
+                </div>
+
+                <ul class="links">
+                    <li><a href="#">Today's Deals</a>/li>
+                    <li><a href="#">Customer Service</a></li>
+                    <li><a href="#">Registry</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                    <li><a href="#">Sell</a></li>
+                </ul>
+                <div class="deals">
+                    <a href="#">Shop deals in Electronics</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section"></section>
+
+    <section class="shop-section">
+        <div class="shop-images">
+            <div class="shop-link">
+                <h3>Shop Laptops &amp; Tables</h3>
+                <img height="auto" src="images/img-1.png" alt="card">
+                <a href="#">Shop now</a>
+            </div>
+            <div class="shop-link">
+                <h3>Shop Smartwatches</h3>
+                <img height="auto" src="images/img-2.png" alt="card">
+                <a href="#">Shop now</a>
+            </div>
+            <div class="shop-link">
+                <h3>Create with Strip Lights</h3>
+                <img height="auto" src="images/img-3.png" alt="card">
+                <a href="#">Shop now</a>
+            </div>
+            <div class="shop-link">
+                <h3>Home Refresh Ideas</h3>
+                <img height="auto" src="images/img-4.png" alt="card">
+                <a href="#">Shop now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#" class="footer-title">
+            Back to top
+        </a>
+        <div class="footer-items">
+            <ul>
+                <h3>Get to know Us</h3>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press Release</a></li>
+                <li><a href="#">Amazon Science</a></li>
+            </ul>
+            <ul>
+                <h3>Connect with us</h3>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+            <ul>
+                <h3>Make money with us</h3>
+                <li><a href="#">Sell on Amazon</a></li>
+                <li><a href="#">Sell under Amazon Acceleration</a></li>
+                <li><a href="#">Protect and Build Your Brand</a></li>
+                <li><a href="#">Amazon Global Selling</a></li>
+                <li><a href="#">Become an Affiliate</a></li>
+                <li><a href="#">Fulfilment by Amazon</a></li>
+                <li><a href="#">Advertise Your Products</a></li>
+                <li><a href="#">Amazon Pay on Merchants</a></li>
+            </ul>
+            <ul>
+                <h3>Let Us Help You</h3>
+                <li><a href="#">COVID-19 and Amazon</a></li>
+                <li><a href="#">Your Account</a></li>
+                <li><a href="#">Return Centre</a></li>
+                <li><a href="#">100% Purchase Protection</a></li>
+                <li><a href="#">Amazon App Download</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
